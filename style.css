@@ -63,6 +63,63 @@ h1 {
 }
 
 
+.field-group {
+    width: 600px;
+    position: relative;
+    padding-top: 15px;
+    text-align: center;
+    left: 30%;
+
+}
+
+.input-field {
+
+    left: 25%;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #999999;
+    padding: 10px 0;
+    background: transparent;
+    font-size: 2em;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+.input-label {
+
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 1em;
+    color: #999999;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.input-field::placeholder {
+    color: transparent;
+}
+
+.input-field:placeholder-shown~.input-label {
+    font-size: 2em;
+    top: 20px;
+}
+
+.input-field:focus {
+    border-image: linear-gradient(to right, #ef5a03, #d1d357);
+    border-image-slice: 1;
+}
+
+.input-field:focus~.input-label {
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 1em;
+    color: #ef5a03;
+}
+
+
 
 .link-button {
     text-decoration: none;
@@ -79,8 +136,9 @@ h1 {
 }
 
 .half-width {
-    width: 50%;
-    padding-left: 30%;
+    font-display: initial;
+    text-align: center;
+    left: 50%;
 }
 
 .donation-button {
@@ -124,7 +182,8 @@ h1 {
     text-align: center;
     font-size: medium;
     font-weight: 400;
-
+    border-left: 20%;
+    left: 50%;
 }
 
 .flexible-container {
@@ -165,4 +224,59 @@ h1 {
 
 #education-for-child {
     background-color: rgb(233, 227, 228);
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+    border: 10%;
+
+
+}
+
+.half-width image {
+    width: 50%;
+}
+
+form {
+    background-color: rgb(240, 209, 214);
+    padding: 5px;
+    border: 10%;
+    margin-top: 10%;
+
+}
+
+
+.button-color {
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+
+    padding: 10px 40px;
+
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: 5%;
+
+}
+
+footer h1 {
+    text-align: center;
+    color: crimson;
+    font-style: oblique;
+    font-size: medium;
+}
+
+footer h4 {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+footer {
+    background-color: black;
+    margin-top: 50px;
+    padding: 10px, 15px, 20px, 25px;
+
+
 }
