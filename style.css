@@ -8,9 +8,21 @@ h1 {
     text-align: center;
 }
 
-.flexible-container {
+
+
+.top-bannerr {
     display: flex;
     margin-bottom: 200px;
+    width: 40px;
+    height: 20px;
+    border: 2px solid #fff;
+    background: url(images/donation4.jpg) no-repeat;
+    color: white;
+    font-size: 50px;
+    -moz-box-shadow: 10px 10px 50px #ccc;
+    -webkit-box-shadow: 10px 10px 50px #ccc;
+    box-shadow: 10px 10px 50px #ccc;
+
 }
 
 .text-align {
@@ -50,25 +62,59 @@ h1 {
     shadow: 10px 10px 40px gray;
 }
 
-.donate-people {
-    width: 40px;
-    height: 20px;
-    border: 2px solid #fff;
-    background: url(images/donation4.jpg) no-repeat;
-    color: white;
-    font-size: 50px;
-    -moz-box-shadow: 10px 10px 50px #ccc;
-    -webkit-box-shadow: 10px 10px 50px #ccc;
-    box-shadow: 10px 10px 50px #ccc;
 
-}
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(white, gray, black);
+    background-image: linear-gradient(orange, tomato);
+
     padding: 10px 40px;
 
     color: white;
     font-weight: 700;
     border-radius: 5px;
+    margin-left: 5%;
+
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 30%;
+}
+
+.donation-button {
+    box-sizing: 50px;
+    padding-left: 200px;
+    font-weight: 500;
+    box-shadow: 10px;
+    margin-left: 0%;
+
+
+
+}
+
+.need-amount {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 500px;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px white;
+
+}
+
+.link-money {
+
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+
+    padding: 10px 40px;
+
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    size: 20px;
+    padding: 10px 40px;
+    margin-left: 45%;
+
 }
