@@ -117,4 +117,52 @@ h1 {
     padding: 10px 40px;
     margin-left: 45%;
 
+
+}
+
+.donate-for-pra {
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.need-donate {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+    padding-left: 60px;
+    box-shadow: 20px 20px 460px gray;
+
+}
+
+.image-size {
+
+    height: 50px;
+    padding: 5px;
+    width: 50px;
+    background-position: left;
+
+}
+
+
+
+#food-for-family {
+    background-color: rgb(214, 227, 233);
+
+}
+
+
+#shelter-for-family {
+    background-color: rgb(238, 226, 212);
+}
+
+#education-for-child {
+    background-color: rgb(233, 227, 228);
 }
